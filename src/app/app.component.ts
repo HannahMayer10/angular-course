@@ -28,5 +28,9 @@ export class AppComponent implements AfterViewInit {
     onCourseSelected(course:Course) {
 
     }
+    onToggle(isHightlighted: boolean){
+      console.log(isHightlighted);
+
+    }
 
 }

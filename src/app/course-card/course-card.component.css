@@ -2,5 +2,8 @@
 .course-card.beginner {
     background: lightsalmon;
 }
+:host {
+  display: block;
+}
 
 
