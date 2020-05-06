@@ -12,7 +12,7 @@ export const APP_CONFIG: AppConfig = {
 
 export const CONFIG_TOKEN = new InjectionToken<AppConfig>("CONFIG_TOKEN",
 {
-  //does not get loaded it no used
+  //does not get loaded it no used (tree-shakeable?)
   providedIn: 'root',
   factory: () =>APP_CONFIG
 });
